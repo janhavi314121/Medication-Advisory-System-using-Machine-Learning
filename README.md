@@ -82,4 +82,3 @@ Thank you to all contributors and the machine learning community for their resou
 
 --- 
 
-Feel free to let me know if there’s anything else you'd like to add!
