@@ -1,16 +1,88 @@
-# Personalized-Medical-Recommendation-System-with-Machine-Learning
-Welcome to our cutting-edge Personalized Medical Recommendation System, a powerful platform designed to assist users in understanding and managing their health. Leveraging the capabilities of machine learning, our system analyzes user-input symptoms to predict potential diseases accurately. Here's what sets our system apart:
+Here's the updated `README.md` file for your project, incorporating instructions on how to activate the virtual environment and run the project:
 
-User-Friendly Interface: Our intuitive interface allows users to input their symptoms effortlessly, creating a seamless user experience.
+---
 
-Advanced Machine Learning Models: We've integrated state-of-the-art machine learning models that accurately predict diseases based on input symptoms, ensuring reliable and precise results.
+# 🩺 Medication Advisory System using Machine Learning
 
-Tailored Recommendations: Receive personalized recommendations for the top 5 medicines, prescription details, and even workout routines based on the predicted disease.
+Welcome to the **Medication Advisory System using Machine Learning**! This system uses machine learning to predict diseases based on symptoms and recommends suitable treatments, designed to assist in rapid preliminary diagnosis.
 
-Flask App Integration: The entire system is powered by a Flask web application, making it easily accessible to users. Experience the convenience of accessing healthcare recommendations from anywhere.
+---
 
-Privacy and Security: We prioritize user privacy and data security. Your health information is handled with the utmost confidentiality, adhering to the highest industry standards.
+## 📋 Project Overview
 
-Continuous Improvement: Our system is designed for continuous improvement. As we gather more data, the machine learning models evolve, providing increasingly accurate and relevant recommendations.
+This project aims to create a machine learning model that can:
 
-Take charge of your health with our Personalized Medical Recommendation System. Your well-being is our priority, and we're dedicated to providing you with the tools and insights you need for a healthier, happier life.
+- 🧩 Predict diseases based on input symptoms
+- 💡 Provide relevant medical recommendations
+- 🧪 Offer a user-friendly interface for healthcare support
+
+## 🚀 Key Features
+
+- **Symptom-Based Disease Prediction:** Predicts potential diseases from a set of symptoms.
+- **Machine Learning Models Implemented:** Support Vector Classifier (SVC), Random Forest, Gradient Boosting, K-Nearest Neighbors, and Multinomial Naive Bayes.
+- **Model Evaluation Metrics:** Confusion Matrix and Accuracy Score.
+- **Trained Model Persistence:** Save and load the model for future predictions.
+
+## 🛠️ Setup and Installation
+
+### Prerequisites
+
+Ensure you have the following libraries installed:
+
+```bash
+pip install pandas scikit-learn numpy
+```
+
+### Files and Directories
+
+- `Training.csv`: Training dataset with symptoms and respective diseases.
+- `svc.pkl`: Saved model file for making predictions.
+
+## 📂 Directory Structure
+
+```plaintext
+├── Training.csv                  # Dataset file
+├── svc.pkl                       # Trained model file
+├── README.md                     # Project documentation
+├── venv                          # Virtual environment directory
+└── main.py                       # Main script to run the project
+```
+
+## ▶️ How to Run the Project
+
+1. **Navigate to the project folder**.
+   - Right-click inside the folder and select **Open PowerShell**.
+
+2. **Activate the virtual environment**:
+   ```bash
+   ./venv/Scripts/activate
+   ```
+
+3. **Run the main script**:
+   ```bash
+   python main.py
+   ```
+
+## 📊 Model Performance
+
+The model was tested with various classifiers to find the best-performing one. Below are the models used:
+
+- 🌐 **Support Vector Classifier (SVC)**
+- 🌲 **Random Forest Classifier**
+- 🔥 **Gradient Boosting Classifier**
+- 📍 **K-Nearest Neighbors**
+- 📈 **Multinomial Naive Bayes**
+
+Each model's performance was evaluated using accuracy scores and confusion matrices.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 💡 Acknowledgements
+
+Thank you to all contributors and the machine learning community for their resources and support!
+
+--- 
+
+Feel free to let me know if there’s anything else you'd like to add!
