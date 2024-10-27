@@ -76,10 +76,25 @@ Each model's performance was evaluated using accuracy scores and confusion matri
 ## 🖼️ Project Images
 
 ### Disease Prediction Interface
-![Disease Prediction Interface](images/disease_prediction_interface.png)
+![image](https://github.com/user-attachments/assets/1c597142-77b3-4d86-a368-07f6a0ad9a09)
+![image](https://github.com/user-attachments/assets/c8e7d8b8-cad3-4b7b-92e0-b053ba1022ef)
+![image](https://github.com/user-attachments/assets/93b3bf99-5454-4cd3-80b8-25780b6b109c)
+![image](https://github.com/user-attachments/assets/a8e0dee4-bbde-4150-826b-5d9968dfe392)
+![image](https://github.com/user-attachments/assets/aba53524-a0cb-4ca2-a849-b2203a59aafb)
+![image](https://github.com/user-attachments/assets/228d7c6d-0b8b-4382-bacb-5f632103494d)
+![image](https://github.com/user-attachments/assets/abcb65e1-ee1a-4ec7-b307-6a6d9e01a0e6)
+![image](https://github.com/user-attachments/assets/e2118e26-29ae-49be-a46a-e1090026748b)
+![image](https://github.com/user-attachments/assets/17491423-d9ca-4771-826e-7db651b6297f)
+![image](https://github.com/user-attachments/assets/15344371-4c97-4f4c-ba76-333277a4ad43)
+![image](https://github.com/user-attachments/assets/2c77c307-ccd1-4cee-82d3-d4d38a9bae06)
 
-### Model Training Results
-![Model Training Results](images/model_training_results.png)
+
+
+
+
+
+
+
 
 *Add more images as needed, describing each feature or result.*
 
