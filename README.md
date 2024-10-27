@@ -42,7 +42,8 @@ pip install pandas scikit-learn numpy
 ├── svc.pkl                       # Trained model file
 ├── README.md                     # Project documentation
 ├── venv                          # Virtual environment directory
-└── main.py                       # Main script to run the project
+├── main.py                       # Main script to run the project
+└── images                        # Folder to store screenshots/images
 ```
 
 ## ▶️ How to Run the Project
@@ -72,6 +73,16 @@ The model was tested with various classifiers to find the best-performing one. B
 
 Each model's performance was evaluated using accuracy scores and confusion matrices.
 
+## 🖼️ Project Images
+
+### Disease Prediction Interface
+![Disease Prediction Interface](images/disease_prediction_interface.png)
+
+### Model Training Results
+![Model Training Results](images/model_training_results.png)
+
+*Add more images as needed, describing each feature or result.*
+
 ## 📜 License
 
 This project is licensed under the MIT License.
@@ -80,5 +91,4 @@ This project is licensed under the MIT License.
 
 Thank you to all contributors and the machine learning community for their resources and support!
 
---- 
-
+---
