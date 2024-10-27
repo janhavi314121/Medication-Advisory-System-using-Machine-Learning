@@ -1,6 +1,3 @@
-Here's the updated `README.md` file for your project, incorporating instructions on how to activate the virtual environment and run the project:
-
----
 
 # 🩺 Medication Advisory System using Machine Learning
 
