@@ -90,14 +90,6 @@ Each model's performance was evaluated using accuracy scores and confusion matri
 
 
 
-
-
-
-
-
-
-*Add more images as needed, describing each feature or result.*
-
 ## 📜 License
 
 This project is licensed under the MIT License.
