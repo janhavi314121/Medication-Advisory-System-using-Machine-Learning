@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(90deg, #BE8CEF 0%, rgba(61, 46, 232, 0.83) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      height: 100vh;
+      margin: -20px 0 50px;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+      position: relative;
+      overflow: hidden;
+      width: 768px;
+      max-width: 100%;
+      min-height: 480px;
+      min-width: 370px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem; /* Reduced margin */
+    }
+
+    .form-container {
+      display: flex;
+    }
+
+    .left-container {
+      flex: 1;
+      height: 480px;
+      background-color: #00b4cf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+    }
+
+    .left-inner-container {
+      height: 50%;
+      width: 80%;
+      text-align: center;
+      line-height: 22px;
+    }
+
+    .left-container p {
+      font-size: 0.9rem;
+    }
+
+    .right-container {
+      display: flex;
+      flex: 1;
+      height: 460px;
+      background-color: #ffffff;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right-inner-container {
+      width: 70%;
+      height: 80%;
+      text-align: center;
+    }
+
+    input, textarea {
+      background-color: #eee;
+      border: none;
+      padding: 9px 10px; /* Increased padding */
+      margin: 8px 0; /* Increased margin */
+      width: 100%;
+      font-size: 1rem; /* Increased font size */
+    }
+
+    input:focus, textarea:focus {
+      outline: 1px solid #00b4cf;
+    }
+
+    button {
+      border-radius: 20px;
+      border: 1px solid #00b4cf;
+      background-color: #00b4cf;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 10px 40px; /* Reduced padding */
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: transform 80ms ease-in;
+      cursor: pointer;
+      margin-top: 8px; /* Added margin-top to create space */
+    }
+
+    button:hover {
+      opacity: 0.7;
+    }
+
+    .social-container a {
+      margin: 0 10px;
+      color: #00b4cf;
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .left-container {
+        display: none;
+      }
+      .lg-view {
+        display: none;  
+      }
+    }
+
+    @media only screen and (min-width: 600px) {
+      .sm-view {
+        display: none;  
+      }
+    }
+
+    form p {
+      text-align: left;
+      margin-top: 0; /* Remove top margin */
+      margin-bottom: 0.5rem; /* Reduced bottom margin */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="left-container">
+        <div class="left-inner-container">
+          <h2>Let's Chat</h2>
+          <p>Got questions or feedback? Reach out to us using this form anytime!</p>
+          <br>
+          <p>Your concerns and inquiries are important to us. We value your input and are eager to help! 😊</p>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="right-inner-container">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" onsubmit="return validateForm()">
+            <input type="hidden" name="access_key" value="8fac36cc-d35b-4bcb-b626-d56b4f0e5d9c"> <!-- Replace YOUR_API_KEY_HERE with your actual API key -->
+            <h2 class="lg-view">Contact</h2>
+            <h2 class="sm-view">Let's Chat</h2>
+            
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input type="tel" name="phone" id="phone" placeholder="Phone" />
+            <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function validateForm() {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var phone = document.getElementById('phone').value;
+      var message = document.getElementById('message').value;
+
+      // Email validation regex
+      var emailRegex = /^[a-zA-Z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~]+)*@gmail\.com$/;
+      // Phone number validation regex (10 digits)
+      var phoneRegex = /^\d{10}$/;
+
+      if (name === '' || email === '' || phone === '' || message === '') {
+        alert('Please ensure all fields are completed before submitting.');
+        return false; // Prevent form submission
+      } else if (!emailRegex.test(email)) {
+        alert('Please enter a valid Email address');
+        return false; // Prevent form submission
+      } else if (!phoneRegex.test(phone)) {
+        alert('Please enter a valid phone number');
+        return false; // Prevent form submission
+      } else {
+        return true; // Allow form submission
+      }
+    }
+  </script>
+</body>
+</html>

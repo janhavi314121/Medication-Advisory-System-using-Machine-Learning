@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mychatbot-ophl",
+  "private_key_id": "77bf2d9b6966cddd5db5ff9fe4056eff9cd5cee2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzhoHIFlW5BFsO\nbbm68Y2KH9D1uuYtl2JMUGMlzsFdlnSOUU81IkPOpq43528ujI+zfcX6yWy7BYXN\nXs4xwr281qWrisj0X/L24gZpwN3SvjERv3mPseTJ5I6o6GF+BS4YcAmWK5dbu1/O\nyUUUd73trkuO2V8thtXxqZ5Bw857pcs24MmpjQ40JXbrEm1ydr5PKsIhiVaQ5Pv9\nil1AQAOv3oV2ZgfIpYXxEG6OhMhTE8151v3mR3GhE1nm381c1vXEbwj48ApMIfak\nVVeaArpUCvS0LnmoY1qJtOmXvRTtM1Q6qbWlg3vrk6/tODfZQqUDODlj3PR/IJHF\nxo85whPrAgMBAAECggEAAVZiJw3ubB4zJi6HZ8YC1UqYghcGcRZt8zQTOvAn8W2q\njt4l9upU6geHOL0oaOMCEe/afxc9tDVhmq9Ghu+Tbpv/kCAo9p45p6IoPR0h/6+H\nC6gpwvUC9aa6VI0WpIcPwHN+00SeG8+kL81QN6KUGF7jALyOodhGl5h2srjOzEYg\n91xPW+G3DgAQSHveUg/cqytnNhZbdSVLIP2xM9FTGrX9BisXdO4GbUs8J+liivtB\nJHFAeyxe/mDIN+kP3Va/FJfoTs7l4mbxttgFK4adqFd6u+A+7SRei3jXfGvZOxFu\nYudRGwcn4zq1ERXoRrnGiqBHeIOWyLuQWHjnjFeJgQKBgQDjRijtIhlsKjOlU4zT\n98vgKYBWZSYcc/gDJUvl8oSCAxYJ0NXV56slUPYuYSiroxPEVRcH+G1DXn32lRDc\nHHsCLtKIPNHr1RnahK7armqHL/P4kPky1HioV5yefddlGu+I2AAT7643RyNNcNF1\nBf+3PTwI65mKD/azUfLqQDBtiwKBgQDKN1u0ftW3acBiBUIwZcQn74RX6R6BY6Ge\nLMFdImCAm46xl34PjidN0BlSnqWILBm52w1/P78fGiOGnG5fnMhfkMXZ36SysZL5\n1q077m7u2mwzoqGqWji2jrLzkUpfju3WnozZ/Vc98E1UdWOSdujrC8X8SrLxNS2/\n+vPOhQR/IQKBgF+78AVjdb4AUNz1Qr8PBEwabzr1RIZ7ux7oGP51l6eEUUY1N73w\n5kDDx89lkdIq0WrERP1QggX8yaaSyBVP0ejrfDdzFyH2E/veJCFtkuX7JxOvTalB\nosmWjhyc+ZxXKktEYVQEhCg4yQAX48MdkcfH/X/sbjKf4tVKUb6m5z9dAoGAAK9b\nUisz0iE7k5ls9fkCRxhanGmfvtR1kbGZHhWlugnM2/ElbiwPGgZgb5U1/lYX6DdD\nvnCa1yIhiK0y+oPvcdNtuCU3y5sqYkpF3/QY0BpRT4N3hLo1gvjMxmJxnA1B5P44\nf+yJxR3xRR34rmBUvacWjpo6LPL/Kq1Q8hwlPcECgYEArKBqhU3PK6tICXCzfG3S\ncZgYf9fjXZuJZQru0DDE3poSMlgZ0IL1C9ZRgT9lqIoMRpeQrh+lMCu0RzNtbWQU\n2yUJL2iFLXSzbWzyjspWIb0Vy1X95TPFjTKaVIGhzzrb01o3mu0qWJfvfb5w/vQp\nXIUtLmyTNONnvCYo94DSLBY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "wellnesswhisper@mychatbot-ophl.iam.gserviceaccount.com",
+  "client_id": "110145522170631172384",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wellnesswhisper%40mychatbot-ophl.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
